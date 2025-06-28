@@ -1,39 +1,65 @@
-# Basic Java Project
+# Billing_System
 
-## 2.Java Billing System
+A basic **Billing System for a restaurant** written in **Java**, designed to simulate the complete workflow of table-wise order handling and billing with a GUI interface.
 
-## About
+---
 
-- Billing System for a restaurant written in Java. Includes the following functionalities:
+## ✅ Features
 
-* Menu management
-    * Create, manage and delete menus
-* Order management
-    * GUI with tables representations
-    * Table / order status
-    * Table / order logs
-    * Filtering functionalities
-    * File-handling to import and export orders
-* Account management
-    * Login system with password protection
-    * Content display based on user rights (incl. Admin account)
-    * Activity logs
-    * User creation with password requirement
+### 📋 Menu Management
+- Create, manage, and delete menu items
+- Filter items for easy navigation
 
-## Login:
-- On first time login, a root user 'admin' with password 'admin123' will be generated. Access the system using that user name and password.
+### 🍽️ Order Management
+- Place, update, and delete table-wise orders
+- Track order and table status in real-time
+- Log order history with timestamps
 
-## User Management:
-- Admin users can create new users with passwords
-- All users must have a password (no blank passwords allowed)
-- Users can change their own passwords through Account Settings
+### 👤 Account Management
+- Login system with password protection
+- Role-based content display (Admin vs. User)
+- Admin can create users with password enforcement
+- Users can update their own passwords
 
-#### Reset system:
-In order to reset the system to its initial status without any content (user, menubook, order log etc.), delete ALL files in the RestaurantBillingSystem\res folder.
+### 🧾 File Handling
+- Import/export menu and orders using text files
+- Log user actions into an activity log file
 
-#### Details:
-Further details can be found under: [YouTube](https://youtu.be/luqElQKeE78)
+---
 
-## Watch the Live Preview 👉[Click Here]()
-![Preview Image1]()
-![Preview Image2]()
+## 🔐 Login Information
+
+- On first login, use:
+  - **Username**: `admin`
+  - **Password**: `admin123`
+- This default admin can create other users.
+
+---
+
+## ⚙️ User Management Rules
+
+- Admin users can create/delete users.
+- All users must have a non-empty password.
+- Users can update their own passwords in **Account Settings**.
+
+---
+
+## 🧹 Resetting the System
+
+To reset the system to its initial state (remove all data):
+
+- Delete **all files** from the `res/` folder:
+
+---
+
+## 💻 Technologies Used
+
+- **Java (Core + OOP)**  
+- **JavaFX** – For GUI interface  
+- **File Handling (Java I/O)** – For data storage  
+- **JDK 17** – Compatible with JavaFX 17  
+- **Basic User Authentication System**  
+- **Multithreading (Optional for background tasks)**  
+- **Data Filtering & Status Tracking**
+
+---
