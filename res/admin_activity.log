@@ -1,0 +1,24 @@
+Jun 28, 2025 11:19:46 PM billingsystem.MainController handleLogin
+FINE: admin has logged into the system. 
+Jun 28, 2025 11:20:32 PM billingsystem.MainController$7 handle
+FINE: admin has logged out.
+Jun 28, 2025 11:23:51 PM billingsystem.MainController handleLogin
+FINE: admin has logged into the system. 
+Jun 28, 2025 11:24:05 PM billingsystem.MainController$5 handle
+FINE: admin has logged out.
+Jun 28, 2025 11:30:18 PM billingsystem.MainController handleLogin
+FINE: admin has logged into the system. 
+Jun 28, 2025 11:30:25 PM billingsystem.MainController$5 handle
+FINE: admin has logged out.
+Jun 28, 2025 11:35:45 PM billingsystem.MainController handleLogin
+FINE: admin has logged into the system. 
+Jun 28, 2025 11:36:39 PM billingsystem.MainController$3$1 handle
+FINE: Added new user s of type Standard to the system.
+Jun 28, 2025 11:37:10 PM billingsystem.MainController$5 handle
+FINE: admin has logged out.
+Jun 29, 2025 12:15:21 AM billingsystem.MainController handleLogin
+FINE: admin has logged into the system. 
+Jun 29, 2025 12:15:38 AM billingsystem.MainController$3$1 handle
+FINE: Added new user sou of type User to the system.
+Jun 29, 2025 12:15:47 AM billingsystem.MainController$5 handle
+FINE: admin has logged out.

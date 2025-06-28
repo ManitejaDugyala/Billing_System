@@ -1,0 +1,22 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch JavaFX Billing System",
+            "request": "launch",
+            "mainClass": "billingsystem.Main",
+            "projectName": "Java_Billing_System",
+            "vmArgs": [
+                "--module-path",
+                "./javafx-sdk-17.0.2/lib",
+                "--add-modules",
+                "javafx.controls,javafx.fxml"
+            ],
+            "classpath": [
+                "${workspaceFolder}/bin"
+            ],
+            "cwd": "${workspaceFolder}"
+        }
+    ]
+} 

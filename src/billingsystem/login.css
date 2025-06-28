@@ -1,0 +1,20 @@
+#pane {
+    -fx-background-image:url('login.jpg');
+}
+
+/* Make the heading visible with black text and white background */
+Label {
+    -fx-text-fill: BLACK;
+    -fx-background-color: WHITE;
+    -fx-background-radius: 5px;
+    -fx-padding: 5px;
+}
+
+/* Specific styling for the main heading */
+Label[text="Restaurant Billing System"] {
+    -fx-text-fill: BLACK;
+    -fx-background-color: WHITE;
+    -fx-background-radius: 8px;
+    -fx-padding: 8px;
+    -fx-font-weight: BOLD;
+}

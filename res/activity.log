@@ -1,0 +1,8 @@
+Jun 28, 2025 11:18:47 PM billingsystem.Main start
+INFO: Root admin account 'admin' created on first time login.
+Jun 28, 2025 11:19:50 PM billingsystem.MainController constructMainScreen
+INFO: Order log created as no previous log found.
+Jun 28, 2025 11:36:51 PM billingsystem.MainController$8 handle
+WARNING: No activity log for user has been found. User might have deleted his/her log or has never logged in. 
+ Opening activity log failed due to: 
+ java.io.FileNotFoundException: res\s_activity.log (The system cannot find the file specified)
